@@ -67,5 +67,6 @@ def add_s(arr)
       s_added <<
       str.concat("s")
     end
+    s_added[1] = "feet"
     s_added
 end
