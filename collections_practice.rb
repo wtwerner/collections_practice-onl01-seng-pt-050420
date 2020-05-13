@@ -71,4 +71,5 @@ def add_s(arr)
       str.concat("s")
     end
     s_added
+  end
 end
