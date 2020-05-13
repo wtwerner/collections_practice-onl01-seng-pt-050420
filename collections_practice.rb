@@ -66,7 +66,7 @@ def add_s(arr)
   arr.each do |str|
     if arr[1]
       s_added << str
-    else
+    elsif
       s_added <<
       str.concat("s")
     end
