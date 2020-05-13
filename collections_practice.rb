@@ -63,7 +63,6 @@ end
 
 def add_s(arr)
   s_added = []
-  s_added << arr[1]
   arr.each do |str|
       s_added <<
       str.concat("s")
