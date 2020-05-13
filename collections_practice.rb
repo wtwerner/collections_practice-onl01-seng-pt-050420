@@ -62,11 +62,5 @@ def sum_array(arr)
 end
 
 def add_s(arr)
-  s_added = []
-  arr.each do |str|
-      s_added <<
-      str.concat("s")
-    end
-    s_added[1] = "feet"
-    s_added
+  arr.collect { |word| word + "s"}
 end
